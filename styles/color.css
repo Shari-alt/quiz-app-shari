@@ -1,6 +1,7 @@
 :root {
-  --background-color-content: rgb(89, 89, 182);
-  --background-color-footer: rgb(9, 9, 87);
-  --background-color-header: rgb(9, 9, 87);
+  --background-color-content: #161a65;
+  --background-color-footer: #003462;
+  --background-color-header: #003462;
   --color-header: white;
+  --question-background-color: #33c3ff;
 }
