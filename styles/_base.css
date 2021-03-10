@@ -29,12 +29,13 @@ body {
 .content-grid {
   display: flex;
   flex-direction: column;
-  grid-row: 2/3;
+  grid-row: main;
   overflow-y: scroll;
   margin: 0 auto;
   /*grid-column: width;*/
   padding: 50px;
   background-color: var(--background-color-content);
+  padding-top: 10px;
 }
 
 .footer {
@@ -78,6 +79,7 @@ a {
   position: absolute;
   top: -10px;
   right: 10px;
+  box-shadow: 2px 2px;
 }
 
 .answer {
@@ -91,4 +93,22 @@ a {
 .button {
   display: flex;
   justify-content: center;
+  cursor: pointer;
+}
+
+.tag-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-left: 0;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.tag-item {
+  border: 1px solid #003462;
+  text-align: center;
+  padding: 2%;
+  background-color: whitesmoke;
+  box-shadow: 2px 2px;
 }
