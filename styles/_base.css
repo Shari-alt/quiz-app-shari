@@ -10,7 +10,7 @@ body {
 }
 
 /*contains the whole page*/
-.main-grid {
+.body {
   display: grid;
   grid-template-rows: [header] 80px [main] auto [footer] 80px;
   margin: 0 auto;
@@ -21,7 +21,7 @@ body {
   border-style: solid;
 }
 
-.header {
+.home-header {
   display: flex;
   grid-row: header/main;
   background-color: var(--background-color-header);
@@ -54,7 +54,7 @@ body {
   bottom: 0;
 }
 
-h1,
+.home-header-title h1,
 h2,
 h3 {
   line-height: 1.3;
