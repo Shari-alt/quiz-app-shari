@@ -9,7 +9,7 @@
 .profil {
   margin-top: 25px;
   display: flex;
-  fled-direction: row;
+  flex-direction: row;
   justify-content: süace-around;
   border-bottom: 1px solid;
   padding: 20%;
