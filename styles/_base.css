@@ -9,6 +9,7 @@ body {
   margin: 0;
 }
 
+/*contains the whole page*/
 .main-grid {
   display: grid;
   grid-template-rows: [header] 80px [main] auto [footer] 80px;
@@ -21,9 +22,11 @@ body {
 }
 
 .header {
+  display: flex;
   grid-row: header/main;
   background-color: var(--background-color-header);
   color: whitesmoke;
+  justify-content: center;
 }
 
 .content-grid {
